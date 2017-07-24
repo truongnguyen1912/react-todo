@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 180px;
+  padding: 20px;
+  color: white;
+}
+
+.App-body {
+  margin: 20px;
+}
+
+.Todos {
+  margin: 30px auto;
+  width: 500px;
+  text-align: left;
+}
+
+.Todo-input input {
+  padding: 8px 10px;
+  width: 100%;
+  outline: none;
+}
+
+.Todo-list {
+  margin: 20px 0 20px 0;
+}
+
+.Todo-item {
+  padding: 10px 0 10px 0;
+  cursor: pointer;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+}
+
+.Todo-item .text-content {
+  display: inline-block;
+  width: 90%;
+}
+
+.Todo-item .icon-remove {
+  position: absolute;
+  right: 0;
+}
+
+.Todo-item .archived {
+  text-decoration: line-through;
+}
+
+.Todo-info {
+}
+
+.Todo-info div {
+  margin-bottom: 5px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
